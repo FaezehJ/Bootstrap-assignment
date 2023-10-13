@@ -12,7 +12,6 @@ body {
   background-color: #eaf4f8;
 }
 
-
 header .top-bar-wrapper {
   display: flex;
   align-items: center;
@@ -25,8 +24,7 @@ header .btn-lg {
 }
 header h1 {
   margin-bottom: 10px;
-  margin-top: 5px;
-  
+  margin-top: 5px;  
 }
 
 header button {
