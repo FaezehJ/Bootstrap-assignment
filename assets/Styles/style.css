@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap");
 
 body {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   background-color: none;
   font-size: larger;
   text-align: justify;
-  margin: 5px;
+  margin: 0;
 }
-
 
 @media screen and (max-width: 776px) {
   .video {
     width: 90%;
   }
-
-
+}
 /* 
 .navbar {
   background-color: #85dae5;
@@ -64,9 +62,21 @@ body {
   width: 50%;
 }
 
+@media screen and (max-width: 776px) {
+  .video {
+    width: 90%;
+  }
+
   footer .col-md-4 {
     margin-top: 20px;
   }
+} 
+
+*/
+
+footer .col-md-4 {
+  margin-top: 20px;
+}
 
 footer {
   background-color: #85dae5;
@@ -94,20 +104,7 @@ footer ul {
 
 footer ul li {
   display: flex;
-  justify-items: center; 
-  margin-bottom: 1 rem;
-  margin-right: 1 rem;
+  justify-items: center;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
 }
-
-
-@media screen and (max-width: 776px) {
-  .video {
-    width: 90%;
-  }
-
-  footer .col-md-4 {
-    margin-top: 20px;
-  }
-} 
-
-*/
