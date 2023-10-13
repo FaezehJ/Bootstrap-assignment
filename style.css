@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap");
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  background-color: rgb(253, 252, 246);
+  font-size: x-large;
+  text-align: justify;
+  margin: 10px;
+}
+
+.mission {
+  background-color: #eaf4f8;
+}
+
+
+header .top-bar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .btn-lg {
+  background-color: #2f4f9a;
+  align-items: center;
+}
+header h1 {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  
+}
+
+header button {
+  border: none;
+  padding: 10px 10px;  
+  color: #f0f3f4;
+  font-size: .1em;
+  cursor: pointer;  
+  border-radius: 2px; 
+}
+
+header button:hover {
+  background-color: #178de1;  
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+  color: #f7f8f9;
+}
+
+/* Styling the dropdown items on hover */
+.navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+  color: #fbfbfc;  /* or any other color you'd like to use for hover */
+  background-color: #fafcfd;
+}
+
+footer {
+  background-color: #85dae5;
+  color: #dde5eb;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p { 
+  margin-bottom: 1 rem;
+}
+
+footer .card {
+  text-align: center;
+}
+
+@media screen and (max-width: 776px) {
+  .video {
+    width: 90%;
+  }
+
+}
+
+
